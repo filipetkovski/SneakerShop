@@ -1,0 +1,17 @@
+#fav-section {
+    margin: 80px 30px 30px 30px;
+    position: relative;
+}
+
+.fav-top {
+    margin-bottom: 80px;
+}
+
+.fav-top p:nth-of-type(2) {
+    font-size: 1.2em;
+    text-align: center;
+}
+
+#fav-section #scrolling1 {
+    margin: 0;
+}

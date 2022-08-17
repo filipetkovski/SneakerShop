@@ -1,0 +1,154 @@
+footer {
+    margin-top: 100px;
+    background-color: #232323;
+    padding: 30px 30px 5px 30px;
+}
+
+footer a {
+    cursor: pointer;
+}
+
+footer .sm-icons {
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+footer .sm-icons a {
+    padding: 0;
+    margin-right: 20px;
+}
+
+footer .sm-icons  svg {
+    fill: #9b9b9b;
+    font-size: 0.7em;
+    transition: 0.4s;
+}
+
+.footer-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer-top-right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 0.8em;
+    color: #9b9b9b;
+}
+
+.footer-top-right svg {
+    fill: white;
+    transition: 0.4s;
+}
+
+.country {
+    margin: 0 20px 0 10px;
+    color: white;
+}
+
+.footer-bot {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-info-list {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-info-list li {
+    list-style: none;
+    font-size: 0.7em;
+    color: #9b9b9b;
+    padding: 0 8px;
+}
+
+.footer-info-list a {
+    text-decoration: none;
+}
+
+.footer-mid {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-mid-list {
+    display: flex;
+    flex-direction: row;
+    padding-left: 0;
+}
+
+.footer-mid-list li {
+    list-style: none;
+    font-size: 1.2em;
+    padding: 15px;
+    border-bottom: 1px solid #232323;
+    transition: 0.2s;
+}
+
+.footer-mid-list a {
+    text-decoration: none;
+    transition: 0.2s;
+    color: white;
+}
+
+.copyright {
+    font-size: 0.8em;
+}
+
+@media (hover: hover) {
+    .footer-mid-list a:hover {
+        color: firebrick;
+        border-bottom: 1px solid firebrick;
+    }
+
+    footer .sm-icons svg:hover {
+        fill: firebrick;
+    }
+}
+
+@media (max-width: 900px) {
+    .footer-mid {
+        justify-content: start;
+    }
+
+    .footer-mid-list {
+        flex-direction: column;
+    }
+
+    .footer-mid-list li {
+        padding-left: 0;
+    }
+}
+
+@media (max-width: 800px) {
+    .footer-bot {
+        justify-content: start;
+    }
+
+    .footer-info-list {
+        flex-direction: column;
+        padding-left: 0;
+    }
+
+    .footer-info-list li {
+        padding: 10px 0;
+    }
+}
+
+@media (max-width: 450px) {
+    .footer-top {
+        flex-direction: column;
+    }
+
+    footer .sm-icons {
+        justify-content: start;
+    }
+
+    footer .sm-icons svg {
+        font-size: 0.6em;
+    }
+}

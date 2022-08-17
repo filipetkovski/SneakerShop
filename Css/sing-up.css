@@ -1,0 +1,118 @@
+#sing-up {
+    margin: 80px 30px 30px 30px;
+}
+
+.dark-theme {
+    background-color: black;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-gokickss {
+    max-width: 300px;
+}
+
+#sing-up-div {
+    padding-top: 100px;
+    font-family: sans-serif;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+#sing-up-div .logo-gokickss  {
+    width: 100px;
+    border-radius: 50%;
+}
+
+.sing-up-country {
+    color: firebrick;
+    margin: 0 0 20px 0;
+}
+
+.sing-up-details {
+    font-size: 2em;
+    margin: 30px 0 20px 0;
+    text-align: center;
+}
+
+.sing-up-input {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    padding: 15px 12px;
+    border-radius: 20px;
+    border: 1px solid black;
+    width: 500px;
+    outline: none;
+}
+
+.terms-privacy {
+    font-size: 0.8em;
+    color: #7e7e7e;
+    text-align: center;
+    margin: 10px 10px 0 10px;
+    width: 300px;
+}
+
+.sing-up-login {
+    font-size: 1em;
+    color: #7e7e7e;
+    text-align: center;
+    margin: 10px 10px 0 10px;
+    padding-bottom: 50px;
+}
+
+.sing-up-login a {
+    text-decoration: none;
+    color: dodgerblue;
+}
+
+.sing-up-button {
+    border: 1px solid black;
+    border-radius: 20px;
+    font-size: 1.5em;
+    background-color: white;
+    color: black;
+    padding: 7px 30px;
+    margin-top: 40px;
+    width: 500px;
+    cursor: pointer;
+}
+
+.sing-up-back {
+    position: fixed;
+    left: 20px;
+    top: 20px;
+    font-size: 1.3em;
+    text-decoration: none;
+    color: black;
+}
+
+@media (max-width:700px) {
+    .sing-up-input, .sing-up-button {
+        width: 400px;
+    }
+}
+
+@media (max-width:450px) {
+    .sing-up-details {
+        font-size: 1.8em;
+    }
+
+    .sing-up-input, .sing-up-button {
+        width: 280px;
+        padding: 12px;
+        font-size: 1em;
+    }
+}
+
+@media (hover: hover) {
+    .sing-up-button:hover {
+        color: white;
+        background-color: black;
+    }
+}

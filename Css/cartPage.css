@@ -1,0 +1,106 @@
+#cartPage {
+    margin: 80px 30px 30px 30px;
+}
+
+.cart-payment p {
+    margin: 0;
+}
+
+.cart-text {
+    margin-bottom: 80px;
+}
+
+.cart-text p:nth-of-type(2) {
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.cart-payment {
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+    align-items: center;
+    transition: 0.5s;
+}
+
+.payment-text {
+    font-size: 1.4em;
+}
+
+.bonust-card {
+    font-weight: bold;
+    margin: 10px 0 15px 0;
+    font-size: 0.9em;
+    color: firebrick;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.cart-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 600px;
+    margin: 10px 0;
+}
+
+.total-text {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.cart-div:nth-of-type(3) {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 10px 0;
+}
+
+.cart-paynow-button {
+    background-color: transparent;
+    border: 1px solid black;
+    font-size: 1em;
+    padding: 10px 30px;
+    border-radius: 40px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    transition: 0.5s;
+    opacity: 0.5;
+    color: black;
+}
+
+.total-price {
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.members-delivery {
+    margin: 10px 0;
+    color: #9b9b9b;
+}
+
+@media (max-width: 700px) {
+    .cart-div {
+        width: 500px;
+    }
+}
+
+@media (max-width: 600px) {
+    .cart-div {
+        width: 400px;
+    }
+}
+
+@media (max-width: 450px) {
+    .cart-div {
+        width: 280px;
+    }
+}
+
+@media (hover: hover) {
+    .cart-paynow-button:hover {
+        background-color: black;
+        color: white;
+    }
+}

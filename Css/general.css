@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+
+    background-color: white;
+    font-family: Ruda;
+    overflow-x: hidden;
+}
+
+s {
+    color: firebrick;
+    font-size: 0.9em;
+}
+
+* {
+    -webkit-tap-highlight-color: transparent;
+}
