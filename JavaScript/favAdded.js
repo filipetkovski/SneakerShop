@@ -1,6 +1,24 @@
-/*function addFav() {
-    const name = document.getElementById("getName").textContent;
+/*
+//Model
+let favourites;
+const savedFav = JSON.parse(localStorage.getItem('fav'));
+if(Array.isArray(savedFav)) {
+    favourites = savedFav;
+} else {
+    favourites = [];
+}
 
-    localStorage.setItem("textvalue", name);
-    return false;
-}*/
+
+//Controller
+function createFav(title,price.) {
+
+}
+
+
+function  addFav() {
+    const
+}
+
+
+//View
+*/

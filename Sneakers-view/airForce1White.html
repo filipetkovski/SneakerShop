@@ -23,6 +23,7 @@
     <script src="../JavaScript/horizontal-scroll.js"></script>
     <script src="../JavaScript/search-bar.js"></script>
     <script src="../JavaScript/openSize.js"></script>
+    <script src="../JavaScript/favAdded.js"></script>
 
 </head>
 <body>
@@ -36,15 +37,15 @@
                         <ol class="h1__list">
                             <li><h3 class="h1__heading">New For Men</h3></li>
                             <li><a href="../Sneakers/newForMen.html" class="h1__links">All shoes</a></li>
-                            <li><a href="lifestyleMen.html" class="h1__links">Lifestyle</a></li>
-                            <li><a href="jordanMen.html" class="h1__links">Jordan</a></li>
+                            <li><a href="../lifestyleMen.html" class="h1__links">Lifestyle</a></li>
+                            <li><a href="../jordanMen.html" class="h1__links">Jordan</a></li>
                             <li><a href="../Sneakers/newForMen.html" class="h1__links">Running</a></li>
                             <li><a href="../Sneakers/newForMen.html" class="h1__links">Basketball</a></li>
                             <li><a href="../Sneakers/newForMen.html" class="h1__links">Football</a></li>
                             <li><a href="../Sneakers/newForMen.html" class="h1__links">Gym</a></li>
                         </ol>
                         <ol class="h1__list">
-                            <li><h3 class="h1__heading">New For Women</h3></li>
+                             <li><h3 class="h1__heading">New For Women</h3></li>
                             <li><a href="../Sneakers/newForMen.html" class="h1__links">All shoes</a></li>
                             <li><a href="../Sneakers/newForMen.html" class="h1__links">Lifestyle</a></li>
                             <li><a href="../Sneakers/newForMen.html" class="h1__links">Jordan</a></li>
@@ -376,7 +377,7 @@
                     <p id="getName" class="heading">Air Force 1 '07</p>
                     <p class="sneaker-type">Men's Shoe</p>
                     <p class="sneaker-type">White Model</p>
-                    <p class="sneaker-price">$105 <s>$130</s></p>
+                    <p id="getPrice" class="sneaker-price">$105 <s>$130</s></p>
                 <p class="select-size sneaker-info-shown">Select Size</p>
                 <div class="sizes sneaker-info-shown">
                     <button class="size-button-active">EU 40</button>
@@ -399,7 +400,7 @@
                     <button>EU 48,5</button>
                 </div>
                 <button id="add-cart1" class="add-buttons sneaker-info-shown">ADD TO CART</button>
-                <button id="add-favourite1" class="add-buttons sneaker-info-shown">ADD TO FAVOURITES</button>
+                <button onclick="addFav()" id="add-favourite1" class="add-buttons sneaker-info-shown">ADD TO FAVOURITES</button>
                 <div class="left-about about-shown">
                     <div class="about-inside">
                         <div class="reviews">
